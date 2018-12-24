@@ -173,6 +173,7 @@ ko.applyBindings(new Calculator());
         }
     }
      //hello how are you
+//i am fine
     // Callback for every key stroke
     var keycallback = function (e) {
         // Check if the key was one of our calculator keys
