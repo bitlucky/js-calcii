@@ -172,7 +172,7 @@ ko.applyBindings(new Calculator());
             ele.className = ele.className.replace(reg, ' ');
         }
     }
-
+     //hello how are you
     // Callback for every key stroke
     var keycallback = function (e) {
         // Check if the key was one of our calculator keys
