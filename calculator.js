@@ -184,10 +184,10 @@ ko.applyBindings(new Calculator());
             addClass(element, "active");
             setTimeout(function () { removeClass(element, "active"); }, 100);
             // Fire click event
-            fireEvent(element, "click");
+            fireEvent(element, "clicked-button");
         }
     }
-
+//fuck you man!
     // Attach a keyup-event listener on the document
     if (document.addEventListener) {
         document.addEventListener('keyup', keycallback, false);
